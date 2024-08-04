@@ -1,3 +1,25 @@
+# Usage
+
+Add the following dependency to your `pubspec.yaml` file to use the updated package from the Git repository:
+
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+
+  skeletons:
+    git:
+      url: https://github.com/abrhame/skeletons.git
+      ref: master
+      
+```
+Run flutter pub get to install the package.
+
+```sh
+flutter pub get
+```
+Now you can use the skeletons package in your project.
+
 # Skeletons
 
 A Flutter package for building custom skeleton widgets to mimic the page's layout while loading.
